@@ -1,25 +1,36 @@
 "use client";
 
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Nosotros() {
   return (
     <section
       id="nosotros"
-      className="relative w-full min-h-[100vh] flex items-center justify-center text-center overflow-hidden"
+      className="relative w-full py-20 px-6 text-center overflow-hidden"
     >
-      {/* Imagen de fondo con movimiento tipo navbar */}
-      <div className="absolute inset-0 w-full h-full animate-zoomFloat">
+      {/* Imagen de fondo animada */}
+      <motion.div
+        initial={{ opacity: 0, y: 80 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
+        className="absolute inset-0 w-full h-full"
+      >
         <Image
           src="/nosotros.jpg"
           alt="Sobre Nosotros"
           fill
           className="object-cover brightness-50"
         />
-      </div>
+      </motion.div>
 
-      {/* Texto encima */}
-      <div className="relative z-10 max-w-2xl px-6 text-gray-200 space-y-6 animate-fadeUp">
+      {/* Texto animado */}
+      <motion.div
+        initial={{ opacity: 0, y: 80 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
+        className="relative z-10 max-w-2xl mx-auto px-6 text-gray-200 space-y-6"
+      >
         <h2 className="text-4xl font-bold text-white mb-4">
           Sobre Nosotros
         </h2>
@@ -39,7 +50,7 @@ export default function Nosotros() {
         <p className="text-lg leading-relaxed">
           Trabajamos bajo principios de integridad, respeto y responsabilidad, contribuyendo al desarrollo de proyectos que impulsan el crecimiento del sector energético argentino.
         </p>
-      </div>
+      </motion.div>
     </section>
   );
 }

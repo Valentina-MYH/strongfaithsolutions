@@ -8,7 +8,7 @@ export default function Navbar() {
   const [active, setActive] = useState("inicio");
 
   useEffect(() => {
-    const sections = ["inicio", "servicios", "nosotros", "contacto"];
+    const sections = ["inicio", "nuestroservicios", "nosotros", "servicios", "contacto"];
 
     const handleScroll = () => {
       const scrollPos = window.scrollY + 200;
@@ -50,27 +50,27 @@ export default function Navbar() {
           ☰
         </button>
 
-        <div
-          className={`${
-            open ? "block" : "hidden"
-          } md:flex gap-8 font-medium`}
-        >
+        <div className={`${open ? "block" : "hidden"} md:flex gap-8 font-medium`}>
+          
           <Link href="#inicio" className={linkClass("inicio")}>
             Inicio
           </Link>
-      
+
+  
+
           <Link href="#nosotros" className={linkClass("nosotros")}>
             Sobre nosotros
           </Link>
+
           <Link href="#servicios" className={linkClass("servicios")}>
             Servicios
           </Link>
+
           <Link href="#contacto" className={linkClass("contacto")}>
             Contacto
           </Link>
         </div>
 
-         
         <div className="hidden md:block">
           <a
             href="https://wa.me/XXXXXXXXXX"
@@ -78,7 +78,6 @@ export default function Navbar() {
           >
             WhatsApp
           </a>
-        
         </div>
       </div>
     </nav>

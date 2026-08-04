@@ -66,3 +66,32 @@ body {
 .animate-fadeUp {
   animation: fadeUp 1.2s ease forwards;
 }
+/* Fondo espacial tipo Apple */
+@keyframes stars {
+  from { transform: translateY(0); }
+  to { transform: translateY(-2000px); }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.4; }
+}
+
+/* Fondo con bolitas animadas */
+@keyframes particlesMove {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-40px) translateX(20px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.animate-particles {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.15) 3px, transparent 3px);
+  background-size: 40px 40px;
+  animation: particlesMove 8s ease-in-out infinite;
+}

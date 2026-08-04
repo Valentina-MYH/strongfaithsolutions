@@ -1,25 +1,36 @@
 "use client";
 
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Contacto() {
   return (
     <section
       id="contacto"
-      className="relative w-full min-h-[100vh] flex items-center justify-center text-center overflow-hidden pt-32"
+      className="relative w-full py-20 px-6 text-center overflow-hidden"
     >
-      {/* Imagen de fondo con movimiento tipo navbar */}
-      <div className="absolute inset-0 w-full h-full animate-zoomFloat">
+      {/* Imagen de fondo animada */}
+      <motion.div
+        initial={{ opacity: 0, y: 80 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
+        className="absolute inset-0 w-full h-full"
+      >
         <Image
-          src="/Contacto.jpg"   // <-- tu imagen de fondo
+          src="/Contacto.jpg"
           alt="Contacto Strong Faith"
           fill
           className="object-cover brightness-50"
         />
-      </div>
+      </motion.div>
 
-      {/* Texto encima */}
-      <div className="relative z-10 max-w-2xl px-6 text-gray-200 space-y-6 animate-fadeUp">
+      {/* Contenido */}
+      <motion.div
+        initial={{ opacity: 0, y: 80 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
+        className="relative z-10 max-w-2xl mx-auto px-6 text-gray-200 space-y-6"
+      >
         <h2 className="text-4xl font-bold text-white text-center mb-6">
           Contacto
         </h2>
@@ -42,7 +53,7 @@ export default function Contacto() {
         >
           WhatsApp
         </a>
-      </div>
+      </motion.div>
     </section>
   );
 }
