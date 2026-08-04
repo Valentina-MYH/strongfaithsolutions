@@ -17,7 +17,7 @@ export default function Contacto() {
         className="absolute inset-0 w-full h-full"
       >
         <Image
-          src="/Contacto.jpg"
+          src="/contacto.jpg"
           alt="Contacto Strong Faith"
           fill
           className="object-cover brightness-50"
