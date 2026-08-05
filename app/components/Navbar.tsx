@@ -43,6 +43,7 @@ export default function Navbar() {
           StrongFaith
         </Link>
 
+        {/* Botón móvil */}
         <button
           className="md:hidden text-white text-3xl"
           onClick={() => setOpen(!open)}
@@ -50,13 +51,14 @@ export default function Navbar() {
           ☰
         </button>
 
-        <div className={`${open ? "block" : "hidden"} md:flex gap-8 font-medium`}>
-          
+        {/* Menú */}
+        <div
+          className={`${open ? "flex flex-col gap-4 mt-4" : "hidden"} 
+                      md:flex md:flex-row md:gap-8 font-medium`}
+        >
           <Link href="#inicio" className={linkClass("inicio")}>
             Inicio
           </Link>
-
-  
 
           <Link href="#nosotros" className={linkClass("nosotros")}>
             Sobre nosotros
@@ -71,6 +73,7 @@ export default function Navbar() {
           </Link>
         </div>
 
+        {/* Botón WhatsApp desktop */}
         <div className="hidden md:block">
           <a
             href="https://wa.me/XXXXXXXXXX"
