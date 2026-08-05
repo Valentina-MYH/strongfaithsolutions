@@ -20,12 +20,13 @@ export default function Inicio() {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="relative z-10 max-w-4xl mx-auto text-gray-300 space-y-10 sm:space-y-8 space-y-6"
       >
-        {/* Título más pequeño en móvil */}
-        <h1 className="text-7xl md:text-7xl sm:text-5xl text-3xl font-extrabold text-white tracking-tight drop-shadow-xl">
+        {/* Título igual al de “Nosotros” */}
+        <h1 className="text-4xl font-bold text-white mb-4">
           Bienvenido a Strong Faith
+        
         </h1>
-
-        {/* Párrafo principal más pequeño en móvil */}
+      <p></p>
+        {/* Párrafo principal */}
         <p className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light">
           Somos una empresa especializada en la gestión de relaciones con
           superficiarios para proyectos de infraestructura energética de gran
@@ -34,8 +35,9 @@ export default function Inicio() {
           garantizando una comunicación clara, profesional y eficiente durante
           todas las etapas del proyecto.
         </p>
+
+        {/* Segundo párrafo */}
         <p className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light">
-   
           Nuestro trabajo consiste en coordinar el contacto con cada
           superficiario, brindar información, atender consultas, facilitar el
           diálogo y acompañar cada gestión con responsabilidad, transparencia y
@@ -46,8 +48,8 @@ export default function Inicio() {
           permiten el desarrollo de la obra de manera ordenada y profesional.
         </p>
 
-      
-        <p className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light"> 
+        {/* Último párrafo */}
+        <p className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light">
           Creemos que una comunicación efectiva y el respeto por todas las
           partes involucradas son la base para el éxito de cualquier proyecto.
         </p>
