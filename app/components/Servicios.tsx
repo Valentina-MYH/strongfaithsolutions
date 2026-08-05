@@ -49,7 +49,7 @@ export default function Servicios() {
               "Asistencia en campañas sísmicas 2D, 3D y microsísmicas, monitoreo territorial y resolución de contingencias.",
           },
           {
-            img: "/servicio5.jpg",
+            img: "/servicio5.JPG",
             titulo: "Supervisión de Obras",
             texto:
               "Supervisión técnica, seguridad e higiene, protección ambiental, calidad de ejecución y cumplimiento operativo.",
