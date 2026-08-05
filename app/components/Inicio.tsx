@@ -6,7 +6,7 @@ export default function Inicio() {
   return (
     <section
       id="inicio"
-      className="relative w-full py-40 px-6 text-center overflow-hidden"
+      className="relative w-full py-40 md:py-40 sm:py-24 py-16 px-6 text-center overflow-hidden"
     >
       {/* Fondo negro con bolitas animadas */}
       <div className="absolute inset-0 bg-black">
@@ -18,22 +18,38 @@ export default function Inicio() {
         initial={{ opacity: 0, y: 80 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="relative z-10 max-w-4xl mx-auto text-gray-300 space-y-10"
+        className="relative z-10 max-w-4xl mx-auto text-gray-300 space-y-10 sm:space-y-8 space-y-6"
       >
-        <h1 className="text-7xl font-extrabold text-white tracking-tight drop-shadow-xl">
+        {/* Título más pequeño en móvil */}
+        <h1 className="text-7xl md:text-7xl sm:text-5xl text-3xl font-extrabold text-white tracking-tight drop-shadow-xl">
           Bienvenido a Strong Faith
         </h1>
 
-        <p className="text-2xl leading-relaxed font-light">
-          Somos una empresa especializada en la gestión de relaciones con superficiarios para proyectos de infraestructura energética de gran scala. Actuamos como el vínculo entre las empresas desarrolladoras y los propietarios o poseedores de los terrenos involucrados, garantizando una comunicación clara, profesional y eficiente durante todas las etapas de los proyecto.
+        {/* Párrafo principal más pequeño en móvil */}
+        <p className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light">
+          Somos una empresa especializada en la gestión de relaciones con
+          superficiarios para proyectos de infraestructura energética de gran
+          escala. Actuamos como el vínculo entre las empresas desarrolladoras y
+          los propietarios o poseedores de los terrenos involucrados,
+          garantizando una comunicación clara, profesional y eficiente durante
+          todas las etapas del proyecto.
+        </p>
+        <p className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light">
+   
+          Nuestro trabajo consiste en coordinar el contacto con cada
+          superficiario, brindar información, atender consultas, facilitar el
+          diálogo y acompañar cada gestión con responsabilidad, transparencia y
+          respeto. Actualmente participamos en uno de los proyectos de
+          infraestructura energética más importantes de Argentina, colaborando
+          con la convivencia de la ganadería, agricultura y la industria
+          hidrocarburífera, aportando organización, confianza y soluciones que
+          permiten el desarrollo de la obra de manera ordenada y profesional.
         </p>
 
-        <p className="text-xl leading-relaxed font-light">
-          Nuestro trabajo consiste en coordinar el contacto con cada superficiario, brindar información, atender consultas, facilitar el diálogo y acompañar cada gestión con responsabilidad, transparencia y respeto. Actualmente participamos en uno de los proyectos de infraestructura energética más importantes de Argentina, colaborando con la convivencia de la ganadería, agricultura y la industria hidrocarburífera, aportando organización, confianza y soluciones que permiten el desarrollo de la obra de manera ordenada y profesional.
-        </p>
-
-        <p className="text-xl leading-relaxed font-light">
-          Creemos que una comunicación efectiva y el respeto por todas las partes involucradas son la base para el éxito de cualquier proyecto.
+      
+        <p className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light"> 
+          Creemos que una comunicación efectiva y el respeto por todas las
+          partes involucradas son la base para el éxito de cualquier proyecto.
         </p>
       </motion.div>
     </section>
