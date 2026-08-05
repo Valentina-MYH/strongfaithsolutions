@@ -17,6 +17,12 @@ export default function Footer() {
             Gestión de relaciones superficiarias y coordinación territorial para proyectos de infraestructura energética de alta complejidad.
           </p>
 
+          {/* Email visible */}
+          <p className="text-gray-400 text-xs mt-4">
+            <span className="font-semibold text-white">Email:</span>{" "}
+            admin@strongfaithsolutions.com
+          </p>
+
           {/* Navegación */}
           <div className="mt-8">
             <ul className="flex flex-col md:flex-row justify-center gap-4 text-xs">
