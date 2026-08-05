@@ -36,11 +36,11 @@ export default function Nosotros() {
         </h2>
 
         <p className="text-lg leading-relaxed">
-          Somos una empresa especializada en la gestión de relaciones superficiarias para proyectos de infraestructura energética de alta complejidad.
+          Somos una empresa especializada en la gestión de relaciones entre superficiarios propietarios de campos y empresas operadoras, para proyectos de infraestructura energética de alta complejidad.
         </p>
 
         <p className="text-lg leading-relaxed">
-          Nuestro objetivo es facilitar el desarrollo de obras estratégicas mediante una gestión territorial profesional, transparente y eficiente, actuando como nexo entre las empresas desarrolladoras y los superficiarios.
+          Nuestro objetivo es facilitar el desarrollo de obras estratégicas mediando de forma transparente y eficiente.
         </p>
 
         <p className="text-lg leading-relaxed">

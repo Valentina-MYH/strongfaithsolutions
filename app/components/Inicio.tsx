@@ -25,28 +25,15 @@ export default function Inicio() {
         </h1>
 
         <p className="text-2xl leading-relaxed font-light">
-          Somos una empresa especializada en la gestión de relaciones con
-          superficiarios para proyectos de infraestructura energética de gran
-          escala. Actuamos como el vínculo entre las empresas desarrolladoras y
-          los propietarios o poseedores de los terrenos involucrados,
-          garantizando una comunicación clara, profesional y eficiente durante
-          todas las etapas del proyecto.
+          Somos una empresa especializada en la gestión de relaciones con superficiarios para proyectos de infraestructura energética de gran scala. Actuamos como el vínculo entre las empresas desarrolladoras y los propietarios o poseedores de los terrenos involucrados, garantizando una comunicación clara, profesional y eficiente durante todas las etapas de los proyecto.
         </p>
 
         <p className="text-xl leading-relaxed font-light">
-          Nuestro trabajo consiste en coordinar el contacto con cada
-          superficiario, brindar información, atender consultas, facilitar el
-          diálogo y acompañar cada gestión con responsabilidad, transparencia y
-          respeto. Actualmente participamos en uno de los proyectos de infraestructura
-          energética más importantes de Argentina, colaborando en la gestión
-          territorial para la construcción de un ducto de transporte de
-          petróleo, aportando organización, confianza y soluciones que permiten
-          el desarrollo de la obra de manera ordenada y profesional.
+          Nuestro trabajo consiste en coordinar el contacto con cada superficiario, brindar información, atender consultas, facilitar el diálogo y acompañar cada gestión con responsabilidad, transparencia y respeto. Actualmente participamos en uno de los proyectos de infraestructura energética más importantes de Argentina, colaborando con la convivencia de la ganadería, agricultura y la industria hidrocarburífera, aportando organización, confianza y soluciones que permiten el desarrollo de la obra de manera ordenada y profesional.
         </p>
 
         <p className="text-xl leading-relaxed font-light">
-          Creemos que una comunicación efectiva y el respeto por todas las
-          partes involucradas son la base para el éxito de cualquier proyecto.
+          Creemos que una comunicación efectiva y el respeto por todas las partes involucradas son la base para el éxito de cualquier proyecto.
         </p>
       </motion.div>
     </section>

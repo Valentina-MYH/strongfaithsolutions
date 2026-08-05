@@ -36,7 +36,7 @@ export default function Contacto() {
         </h2>
 
         <p className="text-lg font-semibold leading-relaxed">
-          Estamos preparados para acompañar proyectos energéticos que requieren una gestión territorial profesional, organizada y eficiente.
+          Estamos preparados para acompañar proyectos energéticos que requieren una mediación territorial profesional, organizada y eficiente.
         </p>
 
         <p className="text-lg font-semibold leading-relaxed">
