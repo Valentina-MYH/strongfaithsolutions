@@ -48,7 +48,7 @@ export default function Footer() {
 
             {/* Email */}
             <a
-              href="mailto:contacto@strongfaith.com"
+              href="mailto:admin@strongfaithsolutions.com"
               className="text-gray-400 hover:text-white transition-colors"
             >
               <svg
