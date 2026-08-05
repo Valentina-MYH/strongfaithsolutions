@@ -32,7 +32,7 @@ export default function Servicios() {
           },
           {
             img: "/servicio2.jpg",
-            titulo: "Prevención de Conflictos",
+            titulo: "Gestión Territorial",
             texto:
               "Gestión de servidumbres, mediación territorial, informes de uso y ocupación, indemnizaciones y recomposición de daños.",
           },
