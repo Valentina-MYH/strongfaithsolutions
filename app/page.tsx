@@ -14,7 +14,6 @@ export default function Home() {
       <Nosotros />
       <Servicios />
       <Contacto />
-      
       <Footer />
     </>
   );
