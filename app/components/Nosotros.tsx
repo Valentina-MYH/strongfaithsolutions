@@ -32,11 +32,11 @@ export default function Nosotros() {
         className="relative z-10 max-w-2xl mx-auto px-6 text-gray-200 space-y-6"
       >
         <h2 className="text-4xl font-bold text-white mb-4">
-          Sobre Nosotros
+          Sobre nosotros
         </h2>
 
         <p  className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light">
-          Somos una empresa especializada en la gestión de relaciones entre superficiarios propietarios de campos y empresas operadoras, para proyectos de infraestructura energética de alta complejidad.
+          Nos especializamos en la gestión de relaciones entre superficiarios propietarios de campos y empresas operadoras, para proyectos de infraestructura energética de alta complejidad.
         </p>
 
         <p  className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light">
