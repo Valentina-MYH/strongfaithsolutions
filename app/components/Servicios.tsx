@@ -10,49 +10,49 @@ export default function Servicios() {
   const servicios = [
     {
       img: "/servicio1.jpg",
-      titulo: "Asesoramiento Técnico",
+      titulo: "Asesoramiento técnico",
       texto:
         "Asistencia técnica en exploración, explotación, extracción y transporte de hidrocarburos, minería y energías renovables.",
     },
     {
       img: "/servicio2.jpg",
-      titulo: "Gestión Territorial",
+      titulo: "Gestión territorial",
       texto:
         "Gestión de servidumbres, mediación territorial, informes de uso y ocupación, indemnizaciones y recomposición de daños.",
     },
     {
       img: "/servicio3.jpg",
-      titulo: "Prevención de Conflictos",
+      titulo: "Prevención de conflictos",
       texto:
-        "Mediación técnica, arbitraje, negociación ambiental y facilitación de mesas de diálogo entre empresas y comunidades.",
+        "Mediación técnica, arbitraje, negociación ambiental y facilitación de mesas de diálogo entre empresas y otros sectores de la comunidad .",
     },
     {
       img: "/servicio4.jpg",
-      titulo: "Operaciones Sísmicas",
+      titulo: "Operaciones sísmicas",
       texto:
         "Asistencia en campañas sísmicas 2D, 3D y microsísmicas, monitoreo territorial y resolución de contingencias.",
     },
     {
       img: "/servicio5.JPG",
-      titulo: "Supervisión de Obras",
+      titulo: "Supervisión de obras",
       texto:
         "Supervisión técnica, seguridad e higiene, protección ambiental, calidad de ejecución y cumplimiento operativo.",
     },
     {
       img: "/servicio6.jpg",
-      titulo: "Gestión Ambiental",
+      titulo: "Gestión ambiental",
       texto:
         "Estudios ambientales, auditorías, consultoría especializada, peritajes y programas de monitoreo.",
     },
     {
       img: "/servicio7.jpg",
-      titulo: "Capacitación Técnica",
+      titulo: "Capacitación técnica",
       texto:
         "Programas de capacitación en gestión de calidad, gestión ambiental, RSE y seminarios técnicos.",
     },
     {
       img: "/servicio8.jpg",
-      titulo: "Estudios Geotécnicos",
+      titulo: "Estudios geotécnicos",
       texto:
         "Evaluaciones geotécnicas y estudios de estabilidad de taludes para proyectos de infraestructura.",
     },
@@ -70,7 +70,7 @@ export default function Servicios() {
         transition={{ duration: 0.8 }}
         className="text-4xl font-bold text-white mb-16"
       >
-        Nuestros Servicios
+        Nuestros servicios
       </motion.h2>
 
       {/* GRID */}

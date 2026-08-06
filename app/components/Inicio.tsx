@@ -30,7 +30,7 @@ export default function Inicio() {
         <p className="text-2xl md:text-2xl sm:text-xl text-base leading-relaxed font-light">
           Somos una empresa especializada en la gestión de relaciones con
           superficiarios para proyectos de infraestructura energética de gran
-          escala. Actuamos como el vínculo entre las empresas desarrolladoras y
+          escala. Somos el vínculo entre las empresas desarrolladoras y
           los propietarios o poseedores de los terrenos involucrados,
           garantizando una comunicación clara, profesional y eficiente durante
           todas las etapas del proyecto.

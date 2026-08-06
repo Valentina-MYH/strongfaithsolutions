@@ -5,6 +5,7 @@ import Servicios from "./components/Servicios";
 import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
 
+
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
       <Nosotros />
       <Servicios />
       <Contacto />
+      
       <Footer />
     </>
   );
