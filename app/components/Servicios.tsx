@@ -24,7 +24,7 @@ export default function Servicios() {
       img: "/servicio3.jpg",
       titulo: "Prevención de conflictos",
       texto:
-        "Mediación técnica, arbitraje, negociación ambiental y facilitación de mesas de diálogo entre empresas y otros sectores de la comunidad .",
+        "Mediación técnica, arbitraje, negociación ambiental y facilitación de mesas de diálogo entre empresas y otros sectores de la comunidad.",
     },
     {
       img: "/servicio4.jpg",
